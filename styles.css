@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.topContainer{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #474b6e;
+}
+.banner{
+   color: #708ED2;
+   font-size: 2rem;
+   display: flex;
+   justify-content: center;
+ padding-top: 1rem;
+  
+  
+}
+body {
+   
+    min-height: 100vh;
+    margin-top: 9rem;
+    background-color: #373B69;
+  }
+.formContainer{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.search{
+    padding: 0.6rem;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: #373B69;
+    border-color: black;
+}
+
+.imgContainer{
+    width: 310px;
+    height: 450px;
+
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+
+.movieContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+.movieText{
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: whitesmoke;
+}
+
+.movie-info{
+    cursor: pointer;
+}
+
+span{
+    background-color: #22254b;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.overviewContainer{
+    background-color: #585b72;
+    display: none; 
+    position: fixed; 
+    justify-content: center;
+    z-index: 1; /* Sit on top */
+    padding-top: 18.5vh; /* Location of the box */
+    left:0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: scroll; 
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.closebtn{
+    position: absolute;
+    top: 19.5vh;
+    left: 74%;
+    width: 1rem;
+    height: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+.popup{
+    background-color: #585b72;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.displayInfo{ 
+    text-align:left;
+    background-color: #585b72;
+    color: whitesmoke;
+   padding-left: 0.5rem;
+   overflow: auto;
+}
+
+.overviewImage{
+    width:60%;
+    height: 80%;
+
+}
